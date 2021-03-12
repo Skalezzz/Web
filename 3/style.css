@@ -1,0 +1,66 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #0E0024;
+}
+
+.block1 {
+  height: 300px;
+  width: 300px;
+  margin: 50px 520px;
+  border-style: ridge;
+  border-color: red;
+  border-width: 3px;
+  border-radius: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.block2 {
+  height: 500px;
+  width: 800px;
+  margin: 50px 300px;
+  border-left: 1px ridge red;
+  border-right: 3px ridge green;
+  border-bottom: 8px ridge black;
+  border-top: 4px ridge yellow;
+  border-radius: 10px;
+  color: white;
+  background-image: url("kkk.jpg");
+}
+
+.block3 {
+  height: 550px;
+  width: 550px;
+  margin-left: 30%;
+  background-image: url("ppp.jpg"), url("https://image.freepik.com/free-photo/long-dirt-road-leading-to-rural-farm-on-a-clear-sunny-day_181624-28361.jpg");
+  background-position: top, bottom;
+  background-repeat: no-repeat, repeat-x;
+}
+
+.block4 {
+  height: 450px;
+  width: 450px;
+  margin: 30px 400px;
+  color: white;
+  background-attachment: fixed;
+  background-image: url("ppp.jpg");
+}
+
+#txt1 {
+  text-align: center;
+}
+
+#txt2 {
+  text-align: center;
+}
+
+#text1 {
+  text-align: center;
+  color: white;
+}
+
+#text2 {
+  text-align: center;
+  color: white;
+}
